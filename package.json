@@ -1,0 +1,11 @@
+{
+  "name": "backend-course-2025-5-1",
+  "version": "1.0.0",
+  "description": "Примітивний кешуючий проксі-сервер на базі node:http (лабораторна робота №5)",
+  "main": "proxy.js",
+  "scripts": {
+    "start": "node proxy.js"
+  },
+  "author": "Марина bc2024-5 <твій@email>",
+  "license": "MIT"
+}
