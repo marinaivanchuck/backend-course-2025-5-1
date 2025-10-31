@@ -1,11 +1,20 @@
 {
   "name": "backend-course-2025-5-1",
   "version": "1.0.0",
+  "type": "module",
   "description": "Примітивний кешуючий проксі-сервер на базі node:http (лабораторна робота №5)",
   "main": "proxy.js",
   "scripts": {
-    "start": "node proxy.js"
+    "start": "node proxy.js",
+    "dev": "nodemon proxy.js"
   },
-  "author": "Марина bc2024-5 <твій@email>",
-  "license": "MIT"
+  "author": "Марина bc2024-5 <Ω@email>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^14.0.2",
+    "superagent": "^10.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }

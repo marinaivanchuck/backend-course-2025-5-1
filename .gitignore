@@ -2,3 +2,11 @@ node_modules/
 cache/
 .DS_Store
 .env
+# Ігноруємо кеш та тимчасові файли
+cache/
+*.jpg
+*.jpeg
+*.png
+*.gif
+test.txt
+package-lock.json
